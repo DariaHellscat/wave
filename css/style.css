@@ -217,12 +217,7 @@ p:nth-child(11) {
   text-align: center;
   color: #01353e;
 }
-/* .get__item {
-  position: relative;
-  width: 350px;
-  padding-left: 100px;
-}
- */
+
 .subtitle {
   display: flex;
   justify-content: center;
@@ -296,4 +291,115 @@ div:nth-child(1) {
 .galery {
   min-height: 100vh;
   padding: 0 0 200px;
+}
+
+.galery__filter-btn {
+  display: flex;
+  justify-content: left;
+  margin-top: 210px;
+}
+
+.galery__btn {
+  height: 23px;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.6px;
+  color: #242121;
+  margin-left: 20px;
+}
+
+.galery__btn:hover {
+  color: #00b2a0;
+}
+
+.galery__content {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.galery__content-inner {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  margin-bottom: 0;
+}
+
+.galery__content-left {
+  margin-bottom: 50px;
+  column-gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.galery__content-right {
+  margin-bottom: 50px;
+  column-gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.galery__content-btn {
+  width: 350px;
+  height: 70px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.galery__more {
+  text-decoration: none;
+  height: 23px;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.6px;
+  color: #242121;
+}
+
+.galery__more:hover {
+  color: #00b2a0;
+}
+
+.galery__add {
+  height: 200px;
+  width: 1200px;
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  width: 575px;
+  height: 39px;
+  font-family: Roboto Condensed;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.6px;
+  color: #242121;
+}
+
+.galery__author {
+  width: 273px;
+  height: 18px;
+  font-family: Roboto Condensed;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.6px;
+  color: #242121;
 }
