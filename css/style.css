@@ -135,7 +135,8 @@ h4 {
 }
 
 .about {
-  min-height: 100vh;
+  /*   min-height: 100vh; 
+убрали минимальную высоту всего экрана, иначе на больших мониторах половина сайта будет покрыта белом пустым полотном без контента */
   padding: 200px 0 200px;
 }
 
@@ -197,7 +198,7 @@ p:nth-child(11) {
   left: 0px;
   top: 2047px;
   padding: 100px 0 100px;
-  min-height: 100vh;
+  /*   min-height: 100vh;  убрали минимальную высоту всего экрана, иначе на больших мониторах половина сайта будет покрыта белом пустым полотном без контента */
 }
 
 .get__inner {
@@ -290,7 +291,8 @@ div:nth-child(1) {
 
 .galery {
   min-height: 100vh;
-  padding: 0 0 200px;
+  /*  padding: 0 0 200px; */
+  padding: 220px 0px 200px;
 }
 
 .galery__filter-btn {
@@ -353,6 +355,7 @@ div:nth-child(1) {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  margin-bottom: 200px;
 }
 
 .galery__more {
@@ -374,13 +377,33 @@ div:nth-child(1) {
 .galery__add {
   background: #f8f8f8;
   height: 200px;
+  /* font-family: Roboto Condensed;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 40px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*   letter-spacing: 0.6px;
+  color: #242121; */
+}
+
+.galery-author__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+}
+
+.author-quote {
   font-family: Roboto Condensed;
   font-style: italic;
   font-weight: normal;
   font-size: 36px;
   line-height: 40px;
-  display: flex;
-  align-items: flex-end;
   letter-spacing: 0.6px;
   color: #242121;
 }
@@ -393,6 +416,10 @@ div:nth-child(1) {
   font-weight: 300;
   font-size: 14px;
   line-height: 18px;
-  display: flex;
-  flex-direction: column;
+  display: block;
+  right: 165px;
+}
+
+.galery__video {
+  padding: 200px 0 200px;
 }
